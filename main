@@ -1,0 +1,11 @@
+gitconfig --global user.name "Priyadharshinee"
+gitconfig --global user.email priyadharshinee.ramesh@crmit.com
+git clone https://github.com/priyadharshinee
+cd demo
+git status
+git add .
+git commit -m "Test Commit"
+git push origin master
+git branch feature
+git checkout feature
+git push origin feature
